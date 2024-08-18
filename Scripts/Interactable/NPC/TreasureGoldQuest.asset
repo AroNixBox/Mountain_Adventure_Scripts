@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: TreasureGoldQuest
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Oh its you! ive heard about you.
+    AudioClip: {fileID: 8300000, guid: 63dd41d4efcd91a49b9274a40efe1047, type: 3}
+  - Text: I have a very important request for you!
+    AudioClip: {fileID: 8300000, guid: 75aad4e5ea068ec4988a5a1f73000ae8, type: 3}
+  - Text: Someone once hid gold from a raid on this ground!
+    AudioClip: {fileID: 8300000, guid: c2d67acb60147e140b153e0b9fe79d24, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: please help me find 3 pieces of gold, you just have to dig up the dirt
+      mounds!
+    AudioClip: {fileID: 8300000, guid: ac015e51c2e9fc44ca7d1fef0cb8d2aa, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Thank you very much, I will reward you with one point.
+    AudioClip: {fileID: 8300000, guid: c2d67acb60147e140b153e0b9fe79d24, type: 3}
+  SelectedQuestType: 0
+  QuestItem: {fileID: 954155034801107998, guid: 60def4b7321b2254ca96c57a49fe2723,
+    type: 3}
+  TotalNeededItems: 3
+  RewardPoints: 1
+  TotalNeededPoints: 0
+  NpcEventSound: {fileID: 0}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: HiddenQuest
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Hello! Welcome to the Mt. Adventure Resort.
+    AudioClip: {fileID: 8300000, guid: 63dd41d4efcd91a49b9274a40efe1047, type: 3}
+  - Text: You want to get to the top of the mountain, right?
+    AudioClip: {fileID: 8300000, guid: 75aad4e5ea068ec4988a5a1f73000ae8, type: 3}
+  - Text: To get to the path you will need to help the people of the resort.
+    AudioClip: {fileID: 8300000, guid: 77dc1b6318b273b4d88b2978f8fb006f, type: 3}
+  - Text: which will give you points upon completing their request.
+    AudioClip: {fileID: 8300000, guid: 17b6e56afb05c2642beb3103047d0cac, type: 3}
+  - Text: once you have completed all 5 of them you will be allowed to enter the
+      path.
+    AudioClip: {fileID: 8300000, guid: 8c99218e11fba3c47ba7d2447fbcf335, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: 'Just stay on the path and you will be able to find any person with a request
+      to get your 5 points you need. '
+    AudioClip: {fileID: 8300000, guid: ac015e51c2e9fc44ca7d1fef0cb8d2aa, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Thank you for this rare artifact! I will grant you access to the path as
+      a thank you.
+    AudioClip: {fileID: 8300000, guid: c2d67acb60147e140b153e0b9fe79d24, type: 3}
+  SelectedQuestType: 0
+  QuestItem: {fileID: 6870658705417280980, guid: 10cecb714ce917b4f8f4157e4b3e5a6e,
+    type: 3}
+  TotalNeededItems: 1
+  RewardPoints: 5
+  TotalNeededPoints: 0
+  NpcEventSound: {fileID: 0}

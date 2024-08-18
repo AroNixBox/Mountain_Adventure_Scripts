@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef641b479cfcc4949b750db4b3144e42, type: 3}
+  m_Name: ReferenceHolder
+  m_EditorClassIdentifier: 
+  <SmallestWaitTime>k__BackingField: 3
+  <NumberOfPoints>k__BackingField: 3
+  <MovementRadius>k__BackingField: 5
+  fishDataList:
+  - {fileID: 1166340119650484083, guid: d5f212071ab605e479b15f3795d123d2, type: 3}
+  - {fileID: 7105279436927879214, guid: 89280138bdc77a94eaf821f25b4eb078, type: 3}

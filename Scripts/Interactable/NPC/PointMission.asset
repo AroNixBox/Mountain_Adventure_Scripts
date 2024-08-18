@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: PointMission
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Hey, how are you doing?
+    AudioClip: {fileID: 8300000, guid: 23923da9b8558294f97b9e30baee997a, type: 3}
+  - Text: Have you finished the other quests already?
+    AudioClip: {fileID: 8300000, guid: 8642a25b1763fdc4caa26ce9abce5d40, type: 3}
+  - Text: If you finish a quest, you will get a point
+    AudioClip: {fileID: 8300000, guid: 983930facaec2c44f8db6d7d781b2bcc, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: Give me two points and I will construct a road for you
+    AudioClip: {fileID: 8300000, guid: 0d50219ada8725245b114fdf76130794, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Wow, not bad! Here you go
+    AudioClip: {fileID: 8300000, guid: 245c888cdbef2ed41ad2ec93ce9d5f92, type: 3}
+  SelectedQuestType: 1
+  QuestItem: {fileID: 8985110794975049498, guid: 89280138bdc77a94eaf821f25b4eb078,
+    type: 3}
+  TotalNeededItems: 0
+  RewardPoints: 0
+  TotalNeededPoints: 3
+  NpcEventSound: {fileID: 8300000, guid: 7cbffe45f514e564f910be7dc7506c5c, type: 3}

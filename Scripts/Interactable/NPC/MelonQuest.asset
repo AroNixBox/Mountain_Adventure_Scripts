@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: MelonQuest
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Hey, have you noticed the plow and the watering can?
+    AudioClip: {fileID: 8300000, guid: 23923da9b8558294f97b9e30baee997a, type: 3}
+  - Text: You can use the equipment to farm plants!
+    AudioClip: {fileID: 8300000, guid: 8642a25b1763fdc4caa26ce9abce5d40, type: 3}
+  - Text: Equip the plow with E and hit the ground with LMB
+    AudioClip: {fileID: 8300000, guid: fc14b218af702ea42b0abbf4d904896e, type: 3}
+  - Text: After that, a small plant will appear that you have to water
+    AudioClip: {fileID: 8300000, guid: 983930facaec2c44f8db6d7d781b2bcc, type: 3}
+  - Text: Then repeat the process with the watering can (E + LMB)
+    AudioClip: {fileID: 8300000, guid: d1746d9f791709d45a857ceb7c7dc0a7, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: Bring me 3 melons and I will reward you with 4 points!
+    AudioClip: {fileID: 8300000, guid: fc14b218af702ea42b0abbf4d904896e, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Thank you, honey!
+    AudioClip: {fileID: 8300000, guid: ee4090b347db02c4fac36ef49ab943d8, type: 3}
+  SelectedQuestType: 0
+  QuestItem: {fileID: 123419979208324886, guid: 377c63f44414f8b4ab036850983dd3c9,
+    type: 3}
+  TotalNeededItems: 3
+  RewardPoints: 4
+  TotalNeededPoints: 0
+  NpcEventSound: {fileID: 0}

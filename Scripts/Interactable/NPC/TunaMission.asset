@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: TunaMission
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Oh hi, what's up? I'm just taking a break right now
+    AudioClip: {fileID: 8300000, guid: 23923da9b8558294f97b9e30baee997a, type: 3}
+  - Text: Have you noticed the fishing rod standing next to me?
+    AudioClip: {fileID: 8300000, guid: 8642a25b1763fdc4caa26ce9abce5d40, type: 3}
+  - Text: You can equip it with E and throw it in the water with LMB
+    AudioClip: {fileID: 8300000, guid: 983930facaec2c44f8db6d7d781b2bcc, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: 'If you bring me 1 Tuna, I will reward you with something '
+    AudioClip: {fileID: 8300000, guid: fc14b218af702ea42b0abbf4d904896e, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Oh honey, thank you so much!
+    AudioClip: {fileID: 8300000, guid: 245c888cdbef2ed41ad2ec93ce9d5f92, type: 3}
+  SelectedQuestType: 0
+  QuestItem: {fileID: 8985110794975049498, guid: 89280138bdc77a94eaf821f25b4eb078,
+    type: 3}
+  TotalNeededItems: 1
+  RewardPoints: 1
+  TotalNeededPoints: 3
+  NpcEventSound: {fileID: 0}

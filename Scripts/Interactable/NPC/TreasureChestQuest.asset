@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1a80d5681a1594fa0bd3d9e362f703, type: 3}
+  m_Name: TreasureChestQuest
+  m_EditorClassIdentifier: 
+  <DialogueOutput>k__BackingField:
+  - Text: Hello! I have been waiting for you!
+    AudioClip: {fileID: 8300000, guid: 33b4c33f4836ec8439ec99f28b076aec, type: 3}
+  - Text: My great-grandparents once hid a treasure chest on this very spot.
+    AudioClip: {fileID: 8300000, guid: fc14b218af702ea42b0abbf4d904896e, type: 3}
+  <MissionDescriptionOutput>k__BackingField:
+    Text: Please help me find the treasure chest, you have to dig up the mounds of
+      dirt with the shovel next to me.
+    AudioClip: {fileID: 8300000, guid: 0d50219ada8725245b114fdf76130794, type: 3}
+  <MissionFinishedOutput>k__BackingField:
+    Text: Thank you for your help, now I will finally complete my family treasure.
+    AudioClip: {fileID: 8300000, guid: 87c02ebcf1bb77f4c846dbc1a3f0fe6d, type: 3}
+  SelectedQuestType: 0
+  QuestItem: {fileID: 947914886154608235, guid: d21d1c2a7b7b625419e96e4cbc754973,
+    type: 3}
+  TotalNeededItems: 1
+  RewardPoints: 1
+  TotalNeededPoints: 0
+  NpcEventSound: {fileID: 0}
